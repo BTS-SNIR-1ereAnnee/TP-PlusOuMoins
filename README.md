@@ -1,14 +1,16 @@
 # TP-PlusOuMoins
 
-Jeu pour deviner un nombre
 Le programme fourni est un petit jeu pour faire deviner un nombre à l'utilisateur.
+En fonction du nombre saisi le programme nous dit si l'on est supérieur ou inférieur au nombre à trouver.
 
-## Testez le programme pour bien comprendre son fonctionnement
+Répondez aux questions suivantes:
+
+:bangbang: Attention: Commitez et poussez votre avancement régulièrement, la régularité et les messages des commit font partis des critères d'évaluation.
+
+## Compilez puis Testez le programme pour bien comprendre son fonctionnement
 
 ## Réaliser l'agorithme en pseudo code dans un fichier nommé pseudoCode.txt
 
-
-:bangbang: Attention: Commitez et poussez votre avancement régulièrement, la régularité et les commentaires des commit font partis des critères d'évaluation.
 
 Plusieurs pistes d'améliorations doivent être implémentées.Voici leur descriptions, à vous de les réaliser .
 
@@ -22,7 +24,7 @@ Si vous faites ça, il vous faudra faire une boucle qui englobera la quasi-total
 ## Mode 2 joueurs
 Implémentez un mode 2 joueurs ! Attention, je veux qu'on ait le choix entre un mode 1 joueur et un mode 2 joueurs !
 Vous devrez donc faire un menu au début de votre programme qui demande à l'utilisateur le mode de jeu qui l'intéresse.
-La seule chose qui changera entre les deux modes de jeu, c'est la génération du nombre mystère. Dans un cas ce sera unrand()comme on a vu, dans l'autre cas ça sera… unscanf.
+La seule chose qui changera entre les deux modes de jeu, c'est la génération du nombre mystère. Dans un cas ce sera un rand()comme on a vu, dans l'autre cas ça sera… un scanf.
 
 Créez plusieurs niveaux de difficulté. Au début, faites un menu qui demande le niveau de difficulté. Par exemple :
 
@@ -31,9 +33,6 @@ Créez plusieurs niveaux de difficulté. Au début, faites un menu qui demande l
 2 = entre 1 et 1000 ;
 
 3 = entre 1 et 10000.
-
-Si vous faites ça, vous devrez changer votre constante MAX… Eh oui, ça ne peut plus être une constante si la valeur doit changer au cours du programme ! Renommez donc cette variable ennombreMaximum(vous prendrez soin d'enlever le mot-cléconstsinon ça sera toujours une constante !). La valeur de cette variable dépendra du niveau qu'on aura choisi.
-
 
 
 
