@@ -5,21 +5,25 @@ En fonction du nombre saisi le programme nous dit si l'on est supérieur ou inf�
 
 Répondez aux questions suivantes:
 
-:bangbang: Attention: Commitez et poussez votre avancement régulièrement, la régularité et les messages des commit font partis des critères d'évaluation.
+:bangbang: Attention: Commitez et poussez votre avancement régulièrement, la régularité et les messages des commit font partis des critères d'évaluation. Au MINIMUM un commit par question.
+
+:bangbang: Votre programme doit être lisible (indentation et respect des règles de nommage.
 
 ## Compilez puis Testez le programme pour bien comprendre son fonctionnement
+
+## Commentez les différente étapes du programme proposé.
 
 ## Réaliser l'agorithme en pseudo code dans un fichier nommé pseudoCode.txt
 
 
-Plusieurs pistes d'améliorations doivent être implémentées.Voici leur descriptions, à vous de les réaliser .
+Plusieurs pistes d'améliorations doivent être implémentées. Voici leur descriptions, à vous de les réaliser .
 
 ## Faites un compteur de « coups ». 
 Ce compteur devra être une variable que vous incrémenterez à chaque fois que vous passez dans la boucle. Lorsque l'utilisateur a trouvé le nombre mystère, vous lui direz « Bravo, vous avez trouvé le nombre mystère en 8 coups » par exemple.
 
 ## une autre partie?
 Lorsque l'utilisateur a trouvé le nombre mystère, le programme s'arrête. Pourquoi ne pas demander s'il veut faire une autre partie ?
-Si vous faites ça, il vous faudra faire une boucle qui englobera la quasi-totalité de votre programme. Cette boucle devra se répéter TANT QUE l'utilisateur n'a pas demandé à arrêter le programme. Je vous conseille de rajouter une variable booléennecontinuerPartieinitialisée à 1 au départ. Si l'utilisateur demande à arrêter le programme, vous mettrez la variable à 0 et le programme s'arrêtera.
+Si vous faites ça, il vous faudra faire une boucle qui englobera la quasi-totalité de votre programme. Cette boucle devra se répéter TANT QUE l'utilisateur n'a pas demandé à arrêter le programme. Je vous conseille de rajouter une variable booléenne continuerPartie.
 
 ## Mode 2 joueurs
 Implémentez un mode 2 joueurs ! Attention, je veux qu'on ait le choix entre un mode 1 joueur et un mode 2 joueurs !
